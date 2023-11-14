@@ -1,13 +1,13 @@
-[![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/avaloqcloud/acf_res_kms/archive/refs/tags/v0.1.0.zip)
+[![Deploy to Oracle Cloud](https://oci-resourcemanager-plugin.plugins.oci.oraclecloud.com/latest/deploy-to-oracle-cloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/avaloqcloud/terraform-oci-kms/archive/refs/tags/v0.1.0.zip)
 
-# Terraform acf_res_kms module
+# Terraform terraform-oci-kms module
 
-Terraform module to create KMS (Vault and Key) on Oracle Cloud Infrastructure.
+Terraform module to create KMS resources on Oracle Cloud Infrastructure.
 
 ## Usage
 ```hcl
 module "hsm" {
-  source = "git::https://github.com/avaloqcloud/acf_res_kms?ref=v0.1.0"
+  source = "git::https://github.com/avaloqcloud/terraform-oci-kms?ref=v0.1.0"
 
   compartment_id = "ocid1.tenancy.oc1..xxx"
   display_name   = "test"
