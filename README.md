@@ -31,7 +31,7 @@ resource "oci_vault_secret" "test_secret" {
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.2 |
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.2.9 |
 | <a name="requirement_oci"></a> [oci](#requirement\_oci) | 5.18.0 |
 
 ## Providers
@@ -62,4 +62,4 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_setting"></a> [setting](#output\_setting) | OCI KMS Vault object. Includes the 'oci\_kms\_vault' and 'oci\_kms\_key' resource as 'vault' and 'key' respectively. |
+| <a name="output_kms"></a> [kms](#output\_kms) | OCI KMS Vault object. Includes the 'oci\_kms\_vault' and 'oci\_kms\_key' resource as 'vault' and 'key' respectively. |
