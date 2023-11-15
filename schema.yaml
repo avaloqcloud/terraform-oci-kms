@@ -15,7 +15,7 @@ variables:
     required: true
 
   display_name:
-    type: string
+    type: avq:management:vault:name
     title: KMS Display Name
     description: Vault and Key display name's get derived from this value.
     required: true
