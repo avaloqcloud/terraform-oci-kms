@@ -1,5 +1,5 @@
 module "kms-vault" {
-  source = "git::https://github.com/avaloqcloud/terraform-oci-kms-vault?ref=v0.0.1"
+  source = "git::https://github.com/avaloqcloud/terraform-oci-kms-vault?ref=v0.0.2"
   vault = {
     # Required
     compartment_id = var.vault.compartment_id
