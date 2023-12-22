@@ -40,7 +40,7 @@ No providers.
 | Name | Source | Version |
 |------|--------|---------|
 | <a name="module_kms-key"></a> [kms-key](#module\_kms-key) | git::https://github.com/avaloqcloud/terraform-oci-kms-key | v0.0.1 |
-| <a name="module_kms-vault"></a> [kms-vault](#module\_kms-vault) | git::https://github.com/avaloqcloud/terraform-oci-kms-vault | v0.0.1 |
+| <a name="module_kms-vault"></a> [kms-vault](#module\_kms-vault) | git::https://github.com/avaloqcloud/terraform-oci-kms-vault | v0.0.2 |
 
 ## Resources
 
